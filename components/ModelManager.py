@@ -52,12 +52,6 @@ class ModelManager():
     def choose_loss_function(self):
         if self.config.loss_function == 'CE':
             self.loss_function = nn.CrossEntropyLoss()
-        elif self.config.loss_function == 'FL':
-            if self.config.alpha is not None:
-                alpha = self.config.alpha
-            else:
-                alpha = None
-            self.loss_function = FocalLoss.FocalLoss(alpha)
         else:
             self.IOM.log.Error('No Such Loss Function')
 
