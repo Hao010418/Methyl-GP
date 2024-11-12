@@ -13,8 +13,8 @@ We recommend you to build a python virtual environment with [Anaconda](https://d
     python -m pip install -r requirements.txt
 ## 2. Basic dictionaries
 * The parameters can be modified in `config_init.py`. Generally, you only need to change the `learning rate (lr)`, `weight decay (wd)`, and `batch size (batch_size)` for replicating. 
-* The fine-tuned models are provided in `fine_tuned_model`. Make sure you use the correct fine-tuned models for DNA methylation predictions.
+* You should change the `pretrainpath` in `models/DNABERT.py` for different types of methylation. Here, we provide the fine-tuned DNABERT models at 
 ## 3. Get started
 Once all preparations are complete, initiate the training by executing `train.py`.
-## 4. Others
-Thanks for the work of 
+## 4. Acknowledgement
+Thanks for the authors of [Deep6mA](https://github.com/Marscolono/Deep6mA/), [BERT6mA](https://github.com/kuratahiroyuki/BERT6mA/), [iDNA-ABF](https://github.com/FakeEnd/iDNA_ABF/), and [DNABERT](https://github.com/jerryji1993/DNABERT/). Their work has greatly facilitated our research, and we express our gratitude for their spirit of open-source contribution.
