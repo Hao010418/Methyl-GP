@@ -17,4 +17,4 @@ We recommend you to build a python virtual environment with [Anaconda](https://d
 ## 3. Get started
 Once all preparations are complete, initiate the training by executing `train.py`.
 ## 4. Acknowledgement
-Thanks for the authors of [Deep6mA](https://github.com/Marscolono/Deep6mA/), [BERT6mA](https://github.com/kuratahiroyuki/BERT6mA/), [iDNA-ABF](https://github.com/FakeEnd/iDNA_ABF/), and [DNABERT](https://github.com/jerryji1993/DNABERT/). Their work has greatly facilitated our research, and we express our gratitude for their spirit of open-source contribution.
+Thanks for the authors of [Deep6mA](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008767), [BERT6mA](https://academic.oup.com/bib/article/23/2/bbac053/6539171?login=false), [iDNA-ABF](https://link.springer.com/article/10.1186/s13059-022-02780-1), and [DNABERT](https://academic.oup.com/bioinformatics/article/37/15/2112/6128680?login=false). Their work has greatly facilitated our research, apreciate them!
