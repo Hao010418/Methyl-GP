@@ -13,7 +13,7 @@ We recommend you to build a python virtual environment with [Anaconda](https://d
     python -m pip install -r requirements.txt
 ## 2. Basic dictionaries
 * The parameters can be modified in `config_init.py`. Generally, you only need to change the `learning rate (lr)`, `weight decay (wd)`, and `batch size (batch_size)` for replicating. 
-* You should change the `pretrainpath` in `models/DNABERT.py` for different types of methylation. We provide the fine-tuned DNABERT models at [here]() for you to download.
+* You should change the `pretrainpath` in `models/DNABERT.py` for different types of methylation. We provide a complete `.zip` package at [here](https://zenodo.org/records/14207713) for you to download (including the fine-tuned model).
 ## 3. Get started
 Once all preparations are complete, initiate the training by executing `train.py`.
 ## 4. Acknowledgement
