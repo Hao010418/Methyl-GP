@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 
-from models import FocalLoss, iDNA_M2CR
+from models import Methyl_GP
 from sklearn.metrics import auc, roc_curve, precision_recall_curve, average_precision_score
 
 
@@ -36,7 +36,7 @@ class ModelManager():
 
     def init_model(self):
         if self.mode == 'independent test' or '10-CV' or 'cross-species':
-            self.model = iDNA_M2CR.iDNA_M2CR(self.config, self.DM.get_train_numbers())
+            self.model = Methyl_GP.Methy_GP(self.config, self.DM.get_train_numbers())
         else:
             self.IOM.log.Error('No Such Mode')
 
